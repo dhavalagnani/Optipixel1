@@ -1,0 +1,73 @@
+.bg-image1 {
+  background-image: url("../../assets/background-3.jpg");
+  opacity: 0.8;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.grid1w {
+  align-items: center;
+}
+
+.upload-button button {
+  background: rgba(34, 183, 69);
+  color: white; /* White text */
+  padding: 10px 20px; /* Adjust padding for desired size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable action */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.upload-button button:hover {
+  background: rgb(19, 97, 37);
+}
+
+/* skeletons */
+.skeleton {
+  background-color: rgba(75, 134, 94, 0.2);
+  color: transparent;
+}
+.h2-skeleton-details {
+  background-color: rgba(75, 134, 94, 0.4);
+  color: rgba(75, 134, 94, 0);
+  border-radius: 30px;
+  width: 30%;
+}
+.details-skeleton {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  color: transparent;
+  margin-top: 20px;
+}
+.width-small {
+  width: 30%;
+}
+.width-large {
+  width: 900px;
+  height: 30px;
+}
+.width-verysmall {
+  width: 15%;
+  border-radius: 30px;
+  height: 40px;
+}
+.skeleton1 {
+  background-color: rgba(75, 134, 94, 0.2);
+  color: transparent;
+  padding: 20px;
+  border-radius: 30px;
+}
+.Table-workspace {
+  margin: 0 auto;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+.workspace-list {
+  list-style: none;
+  border-radius: 20px;
+}
+
+.workspace-btn {
+  border: none;
+  background-color: transparent;
+}
+.workspace-list {
+  position: absolute;
+  /* top: 100%; */
+  /* left: 0; */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 2;
+}
+.edit-workspace {
+  z-index: 2;
+}
+
+.workspace-btn {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.workspace-btn:hover {
+  background-color: rgb(222, 215, 215);
+}
+.popup-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.showModel .heading1,
+.showModel .grid1 {
+  display: none;
+}
